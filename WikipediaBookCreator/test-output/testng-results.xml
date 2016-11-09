@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40440" started-at="2016-11-09T10:12:03Z" finished-at="2016-11-09T10:12:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40440" started-at="2016-11-09T10:12:03Z" finished-at="2016-11-09T10:12:43Z">
+      <class name="wikipediaBookCreator.DriverScript">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:wikipediaBookCreator.DriverScript@61dd025]" name="beforeTest" is-config="true" duration-ms="7683" started-at="2016-11-09T15:42:03Z" finished-at="2016-11-09T15:42:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:wikipediaBookCreator.DriverScript@61dd025]" name="Test" duration-ms="31290" started-at="2016-11-09T15:42:11Z" finished-at="2016-11-09T15:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:wikipediaBookCreator.DriverScript@61dd025]" name="afterTest" is-config="true" duration-ms="1433" started-at="2016-11-09T15:42:42Z" finished-at="2016-11-09T15:42:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- wikipediaBookCreator.DriverScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
