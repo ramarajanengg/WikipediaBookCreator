@@ -1,0 +1,54 @@
+* Scenario 1) New account product > A/R enters PO number at account product level > CVP creates a resource for account product > Customer wants to remove all PO numbers
+* Scenario 1 Issue) A/R rep is unable to delete PO number at account product level since a resource has been assigned to account product
+* 
+* Scenario 2) There are 5 resources that bill under one account product > 2 out of the 5 resources have special pricing which means a resource is assigned to the account product > PO number is uploaded via WebADI template and assigned at the resource level for the 2 that have special pricing > Monthly invoice is created with activity for all 5 resources
+
+* Scenario 2 Issue: There will be 2 invoices generated...one that includes the 2 resources with special pricing and PO number assigned and a 2nd invoice with no PO number which will include the other 3 resources that do not have resources assigned to the account product (the logic is looking at the account product PO field which is blank)
+* 
+
+
+* Scenario 3) Account product has PO number assigned at the resource level, but all resources are expired.
+* Scenario 3 Issue: Users can not modify PO number at account product level for those resources that are active and use the standard price
+
+
+1209320
+New Sales Existing Customer
+
+1209322
+New Sales Existing Customer / Ram Customer
+
+
+PO 293037
+
+one more question
+
+updated a Customer Account Product (which has Resource) with some PO NUmber. Later updating the same customer with UPDATE_LEVEL as Blank. Now Resource should be updated with 
+
+
+Update Customer Transactions with PO number at Product Level
+Update Existing PO numbers with New POs at Product Level
+Update Customer Transaction with NEW_PO_NUMBER Blank – Error
+Update PO Number for a Expired Resource
+Update PO Number for a Product with End Dated Contract
+Update Customer Transactions – UPDATE_LEVEL Blank – Existing Behaviour
+Delete PO Number for a Customer at Product Level
+Update PO Number for Device Product Level
+
+https://teamstuff.rackspace.com/sites/ebs/Shared%20Documents/Test%20plans%20Repository
+
+RS US SC Contract Processor Lead
+
+Contract# 524699
+
+
+Rackspace Purchase Order Sync Process
+Rackspace Invoice Worksheet Interface to Staging Program
+Rackspace Billing Creation Process
+Rackspace Billing Feed to BRM
+Rackspace Billing Feed To BRM FTP
+
+1209348
+\
+
+
+
